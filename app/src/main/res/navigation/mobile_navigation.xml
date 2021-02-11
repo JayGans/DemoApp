@@ -14,7 +14,7 @@
     <fragment
         android:id="@+id/navigation_invoice"
         android:name="com.ganesh.demoapp.ui.dashboard.DashboardFragment"
-        android:label="Invoice"
+        android:label="Invoices"
         tools:layout="@layout/fragment_dashboard" />
     <fragment
         android:id="@+id/navigation_collect"

@@ -16,12 +16,14 @@
      android:layout_above="@id/view"
         android:layout_alignParentTop="true"
         app:defaultNavHost="true"
+        android:layout_marginBottom="1dp"
         app:navGraph="@navigation/mobile_navigation" />
     <View
         android:layout_width="match_parent"
         android:layout_height="0.5dp"
-        android:background="#2fc8e9"
+        android:background="#B5EBF6"
         android:id="@+id/view"
+        android:visibility="gone"
         android:layout_above="@id/nav_view"
 
         />
@@ -31,8 +33,8 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="0dp"
         android:layout_marginEnd="0dp"
-        app:itemIconTint="#fff"
-        app:itemTextColor="#fff"
+        app:itemIconTint="#C4F2FB"
+        app:itemTextColor="#C4F2FB"
 
         app:itemRippleColor="#2fc8e9"
         android:background="@color/purple_200"
